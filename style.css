@@ -1,0 +1,23 @@
+.seating-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.seat {
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    direction: rtl; /* Right to left for Hebrew text */
+}
+
+h1, h2, h3 {
+    font-family: "Helvetica", sans-serif;
+    direction: rtl;
+}
+
+p {
+    font-family: "Arial", sans-serif;
+    direction: rtl;
+}
